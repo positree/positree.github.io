@@ -1,3 +1,4 @@
+
 /*
     Theme Name: Company
     Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
@@ -1247,12 +1248,26 @@ div.service:hover {
     border-color: #F5F5F5;
     color: #283593;
 }
-  #serTxt{
-  margin-left:18px;
-  margin-right:18px;  
+
+}
+
+#list{
+  color:#283593; font-size:15px; padding: 2px;
+}
+
+@media(min-width: 1200px){
+  #list{
+  color:#283593; font-size:20px; padding: 2px;
 }
 }
 
+@media(min-width: 1200px){
+  #serTxt{
+  margin-left:18px;
+  margin-right:18px;  
+  font-size:20px;
+}
+}
 
 
 
